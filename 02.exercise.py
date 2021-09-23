@@ -38,4 +38,7 @@ def exercise_05():
     arr = list(range(0, num_of_elements))
     print(arr)
 
-exercise_05()
+### List comprehension
+d_range = list(range(1,101))
+d_range_squared  = [x**2 for x in d_range]
+print("d_range: {}".format(d_range_squared))
