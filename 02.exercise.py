@@ -45,3 +45,4 @@ print("d_range: {}".format(d_range_squared))
 
 def exercise_7():
     alphabet = [chr(y) for y in list(range(65,91))] + [chr(y) for y in list(range(97,123))]
+    
